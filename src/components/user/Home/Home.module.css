@@ -1,0 +1,28 @@
+.middle{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+text-align: center;
+background: rgba(0, 0, 0);
+
+}
+.middle h1{
+color: #fff;
+
+}
+.btn_group{
+
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+padding: 20px;
+
+
+
+}
+.btn_dark {
+padding: 15px !important;
+
+}

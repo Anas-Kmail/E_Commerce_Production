@@ -1,0 +1,17 @@
+.changewidth{
+
+    height: 150px;
+}
+.padpy{
+padding: 15px;
+
+
+}
+.loader{
+
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}

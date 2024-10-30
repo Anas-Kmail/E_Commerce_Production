@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    }
+    .parent{
+    
+    background-image: url('./forgetpaass.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+    
+    }
+    
+    .wraper{
+    margin-top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+    
+    width: 420px;
+    height: 100vh;
+    border-radius: 10px;
+    padding: 30px 40px ;
+    }
+    .wraper h1{
+    
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+    
+    }
+    .wraper .input_box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    
+    margin: 30px 0;
+    
+    }
+    .input_box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(red, green, blue, alpha);
+    border-radius: 40px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+    
+    }
+    
+    .input_box input::placeholder{
+    color: white;
+    
+    }
+    
+    .input_box .icon{
+    
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #fff;
+    }
+    
+    .wraper .remember_forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+    margin-top: 15px;
+    
+    }
+    
+    
+    
+    
+    .remember_forget label input {
+    
+    accent-color: #fff;
+    margin-right: 4px;
+    
+    
+    
+    }
+    .remember_forget label{
+    
+    color: #ff0000;
+    
+    }
+    
+    .remember_forget a{
+    color: #fff;
+    text-decoration: none;
+    
+    
+    }
+    
+    .remember_forget a:hover{
+    text-decoration: underline;
+    
+    }
+    .wraper button{
+    
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, al0.1pha);
+    font-size: 16px;
+    font-weight: 700;
+    
+    }
+    
+    .wraper .register_link{
+    
+    font-size: 14.5px;
+    
+    text-align: center;
+    margin: 20px 0 15px;
+    
+    
+    }
+    
+    .register_link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 10px;
+    
+    }
+    .register_link p{
+        color: #ff0000;
+    
+    }
+    .register_link p a:hover{
+    
+    text-decoration: underline;
+    
+    }
+    .pad{
+        padding: 0 !important; 
+        background-color: #ff0000 !important;
+        color: #fff !important;
+        margin: 2px;
+    }

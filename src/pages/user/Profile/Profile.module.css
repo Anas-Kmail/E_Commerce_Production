@@ -1,0 +1,16 @@
+.title_table{
+padding: 20px;
+text-align: center;
+
+
+}
+@media (max-width: 440px) {
+    .fontText {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+  
+
+   
+}

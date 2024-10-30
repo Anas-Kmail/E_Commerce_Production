@@ -1,0 +1,112 @@
+.loader{
+
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.parent{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+
+}
+.child{
+flex-basis: 50%;
+
+}
+.images_dflex{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+
+}
+.images_dflex{
+width: 100%;
+
+}
+.changewid{
+font-size: 26px;
+
+}
+.product{
+
+    padding: 50px;
+   
+}
+.changecolor{
+padding: 10px;
+
+border-radius: 5px;
+color: rgb(0, 0, 0);
+text-align: center;
+
+
+}
+.changecolor_btn{
+
+    padding: 10px;
+
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+
+}
+.changecolor_btn_L{
+    padding: 10px;
+
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+border: 2px solid rgb(0, 0, 0);
+margin-top: 30px;
+
+
+}
+.changecolor_btn_L:hover{
+    background: rgb(38, 57, 77);
+    color: #fff;
+    transform: scale(1.1);
+    transition: all .3s;
+
+}
+.changecolor_btn:hover{
+background: rgb(38, 57, 77);
+color: #fff;
+transform: scale(1.1);
+transition: all .3s;
+
+
+}
+.child{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 5px;
+   
+
+}
+.addcart{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+
+
+
+}
+.modify_img img{
+
+
+width: 200px;
+
+
+}

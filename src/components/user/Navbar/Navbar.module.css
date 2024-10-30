@@ -1,0 +1,82 @@
+.bg {
+    --bs-bg-opacity: 1;
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: 1px 5px black ;
+}
+.flexitem{
+
+display: flex;
+align-items: center;
+flex-direction: row;
+gap: 10px;
+
+
+}
+.flexitem a{
+padding: 5px;
+border: 2px solid white;
+background-color: white;
+border-radius: 5px;
+text-decoration: none;
+color: black;
+
+}
+.flexitem a:hover{
+
+background-color: rgba(0, 0, 0, 0.5);
+
+
+}
+.buttonaque{
+    padding: 5px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+.buttonaque:hover{
+    background-color: rgb(0, 0, 0, 0.5);
+
+
+}
+
+@media(max-width:992px){
+.flexitem{
+
+direction: rtl !important;
+justify-content: space-between;
+position: relative;
+}
+
+
+}
+.iconss{
+text-transform: capitalize;
+text-decoration: none;
+color: black;
+border: 1px solid black;
+border-radius: 3px;
+
+}
+.dflex{
+
+display: flex;
+flex-direction: row;
+gap: 10px;
+justify-content: center;
+align-items: center;
+
+}
+.span{
+color: rgb(255, 255, 255);
+position: absolute;
+top: 10px;
+border: 2px solid  ;
+border-radius: 10px;
+background-color: rgb(0, 0, 0);
+padding: 2px;
+
+}
